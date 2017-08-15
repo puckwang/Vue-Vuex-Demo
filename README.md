@@ -12,8 +12,10 @@
 * `npm install` 安裝相依套件
 * `npm run dev` 執行開發模式
 
+### Keyword
+* `v-modal` 將資料名稱綁定到元素上
+
 ### Install
 * `npm install -g vue-cli` 安裝 [vue-cli](https://github.com/vuejs/vue-cli)
 * `vue init webpack your-project-name` 建立vue專安
-
 
