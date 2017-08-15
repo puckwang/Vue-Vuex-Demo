@@ -18,4 +18,34 @@
 ### Install
 * `npm install -g vue-cli` 安裝 [vue-cli](https://github.com/vuejs/vue-cli)
 * `vue init webpack your-project-name` 建立vue專安
+* `npm install vue-router --save-dev` 安裝vue-route
 
+### vue-route
+* 建立路由
+```
+> router/index.js
+
+export default new Router({
+  routes: [
+    {
+      path: '/hello', # 一般路由
+      name: 'Hello',
+      component: Hello
+    }, {
+      path: '/c2f',
+      name: 'c2f',
+      component: CtoF
+    }, {
+      path: '/*', 
+      redirect: '/hello' # 重新導向
+    }
+  ]
+})
+```
+* 建立連結
+```
+<router-link :to="{path: '/hello'}">Hello</router-link>
+<router-link :to="{name: 'c2f'}">CtoF</router-link>
+
+<router-view></router-view> # 轉跳後所載入的 component 最後會顯示在此
+```
