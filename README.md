@@ -5,6 +5,7 @@
 * [實作小範例入門 Vue & Vuex 2.0 系列](https://github.com/hungjie19/ironman2017vue)
 * [vue.js](https://vuejs.org/)
 * [vue-cli](https://github.com/vuejs/vue-cli)
+* [bootstrap-vue](https://bootstrap-vue.js.org/docs/setup/)
 
 ## Note
 
