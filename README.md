@@ -13,7 +13,10 @@
 * `npm run dev` 執行開發模式
 
 ### Keyword
-* `v-modal` 將資料名稱綁定到元素上
+* `v-modal` 將資料名稱綁定到元素上。
+* `v-if` 當條件成立時，會在瀏覽器上繪製此元素 (適用於大區塊)。
+* `v-show` 當條件不成立時，會使用隱藏的方式，不顯示元素 (適用於小區塊、頻繁切換)。
+* `v-on:click` `@click` 事件處理。
 
 ### Install
 * `npm install -g vue-cli` 安裝 [vue-cli](https://github.com/vuejs/vue-cli)
@@ -51,4 +54,6 @@ export default new Router({
 ```
 
 ### Vue-API
+* data: 放資料的地方。
 * Computed: 需要計算後才顯示的data可以放在computed裡，當data改變時會立即計算結果。
+* methods: 存放function的地方。
