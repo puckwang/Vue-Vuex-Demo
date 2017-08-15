@@ -49,3 +49,6 @@ export default new Router({
 
 <router-view></router-view> # 轉跳後所載入的 component 最後會顯示在此
 ```
+
+### Vue-API
+* Computed: 需要計算後才顯示的data可以放在computed裡，當data改變時會立即計算結果。
