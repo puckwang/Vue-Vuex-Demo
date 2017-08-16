@@ -4,6 +4,7 @@
       <router-link :to="{path: '/hello'}">Hello</router-link>
       <router-link :to="{name: 'c2f'}">CtoF</router-link>
       <router-link :to="{path: '/learnComponent'}">learnComponent</router-link>
+      <router-link :to="{path: '/count'}">count</router-link>
     </p>
     <router-view></router-view>
   </div>
