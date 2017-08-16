@@ -4,6 +4,7 @@
 ## Resources
 * [實作小範例入門 Vue & Vuex 2.0 系列](https://github.com/hungjie19/ironman2017vue)
 * [vue.js](https://vuejs.org/)
+* [Vuex](https://vuex.vuejs.org/zh-cn/)
 * [vue-cli](https://github.com/vuejs/vue-cli)
 * [bootstrap-vue](https://bootstrap-vue.js.org/docs/setup/)
 
@@ -24,6 +25,7 @@
 * `npm install -g vue-cli` 安裝 [vue-cli](https://github.com/vuejs/vue-cli)
 * `vue init webpack your-project-name` 建立vue專安
 * `npm install vue-router --save-dev` 安裝vue-route
+* `npm install vuex --save` 安裝vuex
 
 ### vue-route
 * 建立路由
