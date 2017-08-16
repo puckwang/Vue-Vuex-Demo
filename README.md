@@ -54,6 +54,17 @@ export default new Router({
 
 <router-view></router-view> # 轉跳後所載入的 component 最後會顯示在此
 ```
+* 使用Slot重複利用元件
+```
+<div slot="right">
+# 放入 code
+</div>
+
+<slot name="right"> 
+# 定義區域(挖洞)
+</slot>
+```
+
 
 ### Vue-API
 * data: 放資料的地方。
