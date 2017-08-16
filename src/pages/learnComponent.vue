@@ -1,6 +1,12 @@
 <template>
   <div>
-    <NavBar></NavBar>
+    <NavBar>
+      <div slot="right">
+        <input class="form-control mr-sm-2" type="text" placeholder="Account" aria-label="Account">
+        <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+      </div>
+    </NavBar>
     <JumBotron></JumBotron>
     <Container :list="list"></Container>
   </div>
